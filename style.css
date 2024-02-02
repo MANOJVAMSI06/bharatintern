@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: url('https://i.pinimg.com/originals/d2/0b/3b/d20b3b54e2e448e028472a88ebbba5d0.jpg');
+    background-size: cover;
+    
+
+}
+.container
+{
+    display: flex;
+    border:  solid rgb(0, 0, 0);
+    backdrop-filter: blur(3px);
+    width: 50%;
+    height:50%;
+    margin-left: 400px;
+    margin-top: 190px;
+    align-items: center;
+    border-radius: 20px;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    background:transparent;
+    margin-left: 190px;
+    width: auto;
+    
+}
+input
+{
+
+    justify-content: space-between;
+    background: transparent;
+    width: 350px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    
+}
+::placeholder
+{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    text-size-adjust: 16px;
+}
+.hhh{
+    text-align: center;
+    color:black
+    text-decoration: double;
+    
+}
+.Buttn
+{
+ display: flex;
+ flex-direction: row;   
+ background:transparent;
+ justify-content: space-between;
+ margin-top: 10px;
+ height: 28px;
+
+}
+button
+{
+    background-color: transparent;
+    color:rgb(0, 0, 0);
+    width: 40%;
+
+}
+.btnn
+{
+    margin-left: 20px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+}
+.btnnn
+{
+    margin-right: 20px;
+    border-radius:10px;
+   border-color: rgb(0, 0, 0)
+
+}
+
+
